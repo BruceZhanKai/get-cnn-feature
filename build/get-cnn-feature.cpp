@@ -93,28 +93,7 @@ std::vector<std::string> GetClassName(const std::string& InputFolder)
 
 int main(int argc, char **argv)
 {
-	std::cout << "Welcome to use XYZ Robot Recognition Engine." << std::endl;
-
-	std::cout << "============================================================" << std::endl;
-	std::cout << "步驟一:" << std::endl;
-	std::cout << "將 normalize 成 192x192 眼距 40 的照片放置" << std::endl;
-	std::cout << "C:/feature_bayes_caffe/xxxxxx/data_input.csv 中" << std::endl;
-	std::cout << "============================================================" << std::endl;
-	std::cout << "步驟二:" << std::endl;
-	std::cout << "執行 project 1,得到 feature vector.TXT 及 label.TXT" << std::endl;
-	std::cout << "(project 1 : get-cnn-feature)" << std::endl;
-	std::cout << "============================================================" << std::endl;
-	std::cout << "步驟三:" << std::endl;
-	std::cout << "丟 TXT 給 Gary 去 train bayes model (project 2)" << std::endl;
-	std::cout << "============================================================" << std::endl;
-	std::cout << "步驟四:" << std::endl;
-	std::cout << "最後拿 train 好的 cnn model 及 bayes model 來 test 結果" << std::endl;
-	std::cout << "並存成 roc.TXT (project 3 : cnn_bayes_roc)" << std::endl;
-	std::cout << "============================================================" << std::endl;
-	std::cout << "步驟五:" << std::endl;
-	std::cout << "將 roc.TXT 丟給 LFW 提供的 matlab code 去算 ROC 曲線" << std::endl;
-	std::cout << "============================================================" << std::endl;
-	system("pause");
+	std::cout << "Welcome to use Startup Recognition Engine." << std::endl;
 
 	FacialCaffe facialcaffe;
 
