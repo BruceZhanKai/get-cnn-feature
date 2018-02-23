@@ -1,0 +1,3 @@
+/home/bruce/Desktop/gitBruce/get-cnn-feature/build/CMakeFiles/edit_cache.dir
+/home/bruce/Desktop/gitBruce/get-cnn-feature/build/CMakeFiles/rebuild_cache.dir
+/home/bruce/Desktop/gitBruce/get-cnn-feature/build/CMakeFiles/get-cnn-feature.dir
