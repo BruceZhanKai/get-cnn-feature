@@ -7,6 +7,7 @@
 
 ## Structure
 
+```
 —————./
 |————get-cnn-feature
 |————Parameter.txt
@@ -15,7 +16,7 @@
 |||————pic1.jpg
 |||————pic2.jpg
 |————CNNModel/
-
+```
 
 ## LFW benchmark SOP
 
